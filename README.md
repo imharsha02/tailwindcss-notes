@@ -100,14 +100,18 @@ Using the cofig file, new properties can be added or properties that are present
 The properties must be added in the 'extend' object so that the default tailwindcss properties can be accessed or modified.
 
 After modifing the config file, the website must be built again using the command:
+
 ```html
 npm run build-css
 ```
+
 After building, the costum color can be used like:
 
 ```html
 bg-cosutumColor-strength
 ```
+
+Point to note is that, the signatures of the default config file and the costum file must be exactly the same. So, it is best to add or modify properties by seeing the default config file.
 
 
 
