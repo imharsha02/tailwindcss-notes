@@ -130,11 +130,21 @@ font-<nameOfTheProperty>
 flex
 ```
 All the properties of flex can be used.
-For example, the class 'justify-center' centers the content.However, since justify-center ultimately uses 'justify-content:center' which is related to flex, it must be used alongside the flex class
+For example, the class 'justify-center' centers the content horizontally.However, since justify-center ultimately uses 'justify-content:center' which is related to flex, it must be used alongside the flex class
  
+### Width and height in tailwind
+To add width and height, use the class
 
+```html
+h-<verticalLengthInNumbers> for height and w-<AmountOfWidthInNUmbers>
+ ```
 
-
+### Align items vertically
+Use the class 
+```html
+items-<position>
+ ```
+ alongside the flex class to align items vertically
 
 
 
