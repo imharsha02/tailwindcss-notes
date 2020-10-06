@@ -62,3 +62,48 @@ bg-transparent
 ```html
 font-styleName
 ```
+
+### Margin
+```html
+m-amountOfMargin
+```
+This adds margin all around the content present inside the tag to which this class was applied
+
+### Margin one-side
+```html
+mt-amountOfMargin
+```
+Adds a top margin.
+Similarly, mb, mr and ml classes can be applied to provide margins to the bottom, right and left side of the content
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
