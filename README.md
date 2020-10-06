@@ -84,7 +84,7 @@ p-amountOfPadding
 ```html
 px-amountOfPadding(number)
 ```
-### To add vertical padding, use
+### Vertical padding
 ```html
 py-amountOfPadding(number)
 ```
