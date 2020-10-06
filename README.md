@@ -123,6 +123,15 @@ To use the custom font, use the class
 font-<nameOfTheProperty>
  ```
  
+ ### Flexbox and tailwindcss
+ 
+ To display something in flex, use the class:
+ ```html
+flex
+```
+All the properties of flex can be used.
+For example, the class 'justify-center' centers the content.However, since justify-center ultimately uses 'justify-content:center' which is related to flex, it must be used alongside the flex class
+ 
 
 
 
