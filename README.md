@@ -111,7 +111,7 @@ After building, the costum color can be used like:
 bg-cosutumColor-strength
 ```
 
-Point to note is that, the signatures of the default config file and the costum file must be exactly the same. So, it is best to add or modify properties by seeing the default config file.
+Point to note is that, the signatures of the default config file and the costum file must be exactly the same. So, it is best to add or modify properties by taking the default config file as refrence
 
 
 
