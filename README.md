@@ -113,6 +113,15 @@ bg-<cosutumColor>-strength
 
 Point to note is that, the signatures of the default config file and the costum file must be exactly the same. So, it is best to add or modify properties by taking the default config file as refrence
 
+### Custom fonts
+To use custom fonts, first that font needs to be imported into the syles.css file in the src folder.
+Now inside the config file, we can add a new property to the fontFamily object. The name of the property can be anything, but the value must be an array.
+Now since it is imported into the styles.css file, no error will be produced.
+
+To use the custom font, use the class
+```html
+font-<nameOfTheProperty>
+ ```
 
 
 
