@@ -76,6 +76,19 @@ mt-amountOfMargin
 Adds a top margin.
 Similarly, mb, mr and ml classes can be applied to provide margins to the bottom, right and left side of the content
 
+### padding to all sides
+```html
+p-amountOfPadding
+```
+### Horizontal padding
+```html
+px-amountOfPadding(number)
+```
+To add vertical padding, use
+```html
+py-amountOfPadding(number)
+```
+
 
 
 
