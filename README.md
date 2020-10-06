@@ -57,3 +57,8 @@ Not only solid colors, but transperentness can be set using
 ```html
 bg-transparent
 ```
+
+### Font style
+```html
+font-styleName
+```
