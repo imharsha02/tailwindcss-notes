@@ -16,7 +16,7 @@ Inside the project folder, create two sub-folders called 'src' and 'public'
 ```html
 Inside the src folder, create a styles.css.
 Inside the styles.css, past the following lines of code:
-```
+```javascript
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
