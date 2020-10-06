@@ -1,9 +1,12 @@
 # tailwind-css- notes
 
 ### Step 1:
-Create a package.json file so that 'tailwindcss' can be installed. 
+Create a package.json file so that 'tailwindcss' can be in
 
-Now install tailwindcss using the command 'npm install tailwindcss'
+Now install tailwindcss using the command
+```html
+npm install tailwindcss
+```
 
 ### Step 2:
 Inside the project folder, create two sub-folders called 'src' and 'public'
@@ -23,8 +26,34 @@ Inside the script tags of the package.json file, paste the follwoing script
  "build-css":"tailwindcss build src/styles.css -o public/styles.css"
 ```
 
-### Step5:
+### Step 5:
 Now run the script in the terminal using the following command:
 ```html
 npm run build-css
+```
+### Step 6:
+Inside the public folder, along with styles.css (which will be present), create a html file.
+
+### Step 7:
+Now all that is to add tailwindcss classes for styling
+
+
+### Modify font size
+The way to write a class to change font size is
+```html
+font-size(integer or integerAlongWith)
+```
+### Text colors
+The way to write a class to change the font color is 
+```html
+text-color-darkOrLight(number)
+```
+### Background-color
+The way to set background color is:
+```html
+bg-colorName-strength
+```
+Not only solid colors, but transperentness can be set using
+```html
+bg-transparent
 ```
