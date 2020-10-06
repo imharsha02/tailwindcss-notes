@@ -11,7 +11,7 @@ Inside the project folder, create two sub-folders called 'src' and 'public'
 ### Step 3:
 Inside the src folder, create a styles.css.
 Inside the styles.css, past the following lines of code:
-```html
+```javascript
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -19,6 +19,12 @@ Inside the styles.css, past the following lines of code:
 
 ### Step 4:
 Inside the script tags of the package.json file, paste the follwoing script
-```html
+```javascript
  "build-css":"tailwindcss build src/styles.css -o public/styles.css"
+```
+
+### Step5:
+Now run the script in the terminal using the following command:
+```javascript
+npm run build-css
 ```
