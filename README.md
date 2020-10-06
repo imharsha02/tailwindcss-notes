@@ -96,9 +96,7 @@ The file is created using:
 npx tailwindcss init
 ```
 Using the cofig file, new properties can be added or properties that are present can be removed or modified.
-
 The properties must be added in the 'extend' object so that the default tailwindcss properties can be accessed or modified.
-
 After modifing the config file, the website must be built again using the command:
 
 ```html
@@ -111,7 +109,9 @@ After building, the costum color can be used by adding the following class:
 bg-<cosutumColor>-strength
 ```
 
-Point to note is that, the signatures of the default config file and the costum file must be exactly the same. So, it is best to add or modify properties by taking the default config file as refrence
+There are few points to be noted here:
+1) The signatures of the default config file and the custom config file must be the same. So, it is better to take the default config file as refrence.
+2) Each and every time the custom file is modified, the website must be rebuilt
 
 ### Custom fonts
 To use custom fonts, first that font needs to be imported into the syles.css file in the src folder.
@@ -122,6 +122,7 @@ To use the custom font, use the class
 ```html
 font-<nameOfTheProperty>
  ```
+ 
 
 
 
