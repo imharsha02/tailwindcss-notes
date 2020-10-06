@@ -105,10 +105,10 @@ After modifing the config file, the website must be built again using the comman
 npm run build-css
 ```
 
-After building, the costum color can be used like:
+After building, the costum color can be used by adding the following class:
 
 ```html
-bg-cosutumColor-strength
+bg-<cosutumColor>-strength
 ```
 
 Point to note is that, the signatures of the default config file and the costum file must be exactly the same. So, it is best to add or modify properties by taking the default config file as refrence
