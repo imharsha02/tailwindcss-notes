@@ -93,7 +93,7 @@ py-amountOfPadding(number)
 To customize styles, a tailwind config file is need.
 The file is created using:
 ```html
-npx tailwindcss init --full
+npx tailwindcss init
 ```
 Using the cofig file, new properties can be added or properties that are present can be removed or modified.
 
