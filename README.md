@@ -89,7 +89,18 @@ px-amountOfPadding(number)
 py-amountOfPadding(number)
 ```
 
+### Customizing styles
+To customize styles, a tailwind config file is need.
+The file is created using:
+```html
+npx tailwindcss init --full
+```
+Using the cofig file, new properties can be added or properties that are present can be removed or modified.
 
+After modifing the config file, the website must be built again using the command:
+```html
+npm run build-css
+```
 
 
 
