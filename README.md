@@ -34,7 +34,13 @@ npm run build-css
 ### Step 6:
 Inside the public folder, along with styles.css (which will be present), create a html file.
 
-### Step 7:
+### Step 7: 
+Inside the html's head tag, type this:
+```html
+<link rel='stylesheet' href="styles.css">
+```
+
+### Step 8:
 Now all that is to add tailwindcss classes for styling
 
 
